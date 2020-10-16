@@ -32,40 +32,7 @@ $(document).ready(function() {
             }
         ]
     });
-    $('.slideshow').slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        centerMode: true,
-        centerPadding: '105px',
-        focusOnSelect: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        nextArrow: '<a class="slide-arrow next-arrow"><i class="lni lni-chevron-right"></i></a>',
-        prevArrow: '<a class="slide-arrow prev-arrow"><i class="lni lni-chevron-left"></i></a>',
-        responsive: [{
-                breakpoint: 992,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
+
     $('.button').magnificPopup({
         items: {
             src: 'https://www.youtube.com/watch?v=4ZHp5KNXTPA'

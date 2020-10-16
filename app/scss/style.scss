@@ -1,0 +1,129 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.last {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #000000;
+    .last__bigtext {
+        font-size: 48px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: -0.96px;
+        color: #ffffff;
+    }
+}
+
+footer {
+    .container {
+        border-bottom: 1px solid #e8e8e8;
+        padding-top: 30px;
+        padding-bottom: 24px;
+    }
+    .logo {
+        text-align: left;
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.72px;
+        color: #000000;
+    }
+    h4 {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #5a5a5a;
+    }
+    .footer__text {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    h4 {
+        padding-right: 48px !important;
+    }
+    h4:last-child {
+        padding-right: 0 !important;
+    }
+    .col-md-6,
+    .col-md-3 {
+        align-self: center;
+    }
+    .footer__icon {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    i {
+        font-size: 14px;
+        color: #5a5a5a;
+        padding-right: 16px;
+    }
+    i:last-child {
+        padding-right: 0;
+    }
+    .coppryright {
+        text-align: center;
+        padding-top: 8px;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: normal;
+        color: #5a5a5a;
+    }
+    @media screen and (max-width:576px) {
+        .logo {
+            text-align: center;
+        }
+        .row {
+            flex-direction: column;
+            text-align: center;
+        }
+        .col-md-5 {
+            justify-content: center;
+            text-align: center;
+        }
+        .footer__text {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .footer__icon {
+            padding-top: 16px;
+            justify-content: center;
+        }
+        h4 {
+            padding-right: 0 !important;
+        }
+        h4 {
+            padding-top: 16px !important;
+        }
+    }
+}
