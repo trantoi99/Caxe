@@ -116,7 +116,11 @@
                         </p>
                     </div>
                     <div class="product__buy">
-
+                        <div class="quantity__group">
+                            <button type="button" class="minus" onclick="decreaseValue()"><i class="fa fa-minus" aria-hidden="true"></i></button>
+                            <input id="theInput" type="number" class="input-text qty text" title="Qty" value="1" min="0" step="1">
+                            <button type="button" class="plus" onclick="increaseValue()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                        </div>
                     </div>
                     <div class="product__payment">
                         <div>
