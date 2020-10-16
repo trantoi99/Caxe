@@ -59,8 +59,25 @@ p {
 .padding-top-40 {
   padding-top: 40px; }
 
+.padding-bottom-56 {
+  padding-bottom: 56px; }
+
 a:hover {
   text-decoration: none; }
+
+.benefits {
+  background-color: #fff8f1;
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .benefits .benefits__title {
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1a1a1a; }
 
 .banner {
   background-color: #f17f16; }
