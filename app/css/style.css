@@ -29,10 +29,23 @@ p {
 .margin-top-36 {
   margin-top: 36px; }
 
+.padding-bottom-15 {
+  padding-bottom: 15px; }
+
+.padding-left-15 {
+  padding-left: 15px; }
+
+.padding-right-15 {
+  padding-right: 15px; }
+
+.padding-top-15 {
+  padding-top: 15px; }
+
 .margin-bottom-28px {
   margin-bottom: 28px; }
 
 .our-gallery {
+  background-color: #ecf4f6;
   padding-top: 80px;
   padding-bottom: 80px; }
   .our-gallery .our-gallery__title {
@@ -46,6 +59,27 @@ p {
     line-height: normal;
     letter-spacing: normal;
     color: #1a1a1a; }
+  .our-gallery .our-gallery__img--flex {
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; }
+  @media screen and (max-width: 576px) {
+    .our-gallery {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      .our-gallery .our-gallery__title {
+        padding-bottom: 32px; }
+      .our-gallery .padding-top-15 {
+        padding-top: 7.5px; }
+      .our-gallery .padding-bottom-15 {
+        padding-bottom: 7.5px; }
+      .our-gallery .padding-left-15 {
+        padding-left: 7.5px; }
+      .our-gallery .padding-right-15 {
+        padding-right: 7.5px; }
+      .our-gallery .padding-bottom-20 {
+        padding-bottom: 20px; } }
 
 .faqs {
   padding-top: 80px;
