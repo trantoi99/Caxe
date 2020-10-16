@@ -192,6 +192,32 @@ a:hover {
   letter-spacing: normal;
   color: #2a2a2a; }
 
+.product .product__buy {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  align-items: baseline; }
+
+.product .product__payment {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  align-items: baseline; }
+  .product .product__payment h4 {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #5a5a5a; }
+  .product .product__payment .padding-left-24 {
+    padding-left: 24px; }
+
 .delivery {
   padding-top: 60px;
   padding-bottom: 60px; }

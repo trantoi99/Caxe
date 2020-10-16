@@ -213,6 +213,34 @@ a:hover {
             color: #2a2a2a;
         }
     }
+    .product__buy {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        align-items: baseline;
+    }
+    .product__payment {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        align-items: baseline;
+        h4 {
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            color: #5a5a5a;
+        }
+        .padding-left-24 {
+            padding-left: 24px;
+        }
+    }
 }
 
 .delivery {
