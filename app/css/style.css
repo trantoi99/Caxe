@@ -32,6 +32,106 @@ p {
 .margin-bottom-28px {
   margin-bottom: 28px; }
 
+.faqs {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .faqs .faqs__title {
+    text-align: center;
+    padding-bottom: 48px; }
+  .faqs h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1a1a1a; }
+  .faqs .accordion {
+    margin: 0.2rem auto; }
+  .faqs .accordion-item {
+    margin: 0.2rem 0; }
+  .faqs .accordion-item-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 24px; }
+  .faqs .accordion-item-header h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1a; }
+  .faqs .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 80%; }
+  .faqs .accordion-item-body-content {
+    padding-bottom: 24px; }
+  .faqs .accordion-item-body-content p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a5a5a; }
+  .faqs .circle__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 56px;
+    padding-bottom: 24px; }
+  .faqs .circle__inner {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%; }
+  .faqs .circle__description p {
+    text-align: center;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ff9900;
+    font-size: 1rem; }
+  @media screen and (max-width: 1100px) {
+    .faqs .col-md-1 {
+      display: none; }
+    .faqs .col-md-5 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media screen and (max-width: 768px) {
+    .faqs {
+      padding-top: 80px;
+      padding-bottom: 80px; }
+      .faqs .faqs__title {
+        padding-bottom: 32px; } }
+  @media screen and (max-width: 576px) {
+    .faqs {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      .faqs h2 {
+        font-size: 36px; }
+      .faqs .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%; }
+      .faqs .faqs__title {
+        padding-bottom: 32px; }
+      .faqs .accordion {
+        margin: 0.2rem auto; } }
+
 .last {
   padding-top: 70px;
   padding-bottom: 70px;

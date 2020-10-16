@@ -37,6 +37,127 @@ p {
     margin-bottom: 28px;
 }
 
+.faqs {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .faqs__title {
+        text-align: center;
+        padding-bottom: 48px;
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1a1a1a;
+    }
+    .accordion {
+        margin: 0.2rem auto;
+    }
+    .accordion-item {
+        margin: 0.2rem 0;
+    }
+    .accordion-item-header {
+        display: flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+        padding-bottom: 24px;
+    }
+    .accordion-item-header h4 {
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1a;
+    }
+    .accordion-item-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        width: 80%;
+    }
+    .accordion-item-body-content {
+        padding-bottom: 24px;
+    }
+    .accordion-item-body-content p {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #5a5a5a;
+    }
+    .circle__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 56px;
+        padding-bottom: 24px;
+    }
+    .circle__inner {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        background-color: #2a2a2a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    .circle__description p {
+        text-align: center;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #ff9900;
+        font-size: 1rem;
+    }
+    @media screen and (max-width:1100px) {
+        .col-md-1 {
+            display: none;
+        }
+        .col-md-5 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    @media screen and (max-width:768px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .faqs__title {
+            padding-bottom: 32px;
+        }
+    }
+    @media screen and (max-width :576px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        h2 {
+            font-size: 36px;
+        }
+        .col-md-5 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .faqs__title {
+            padding-bottom: 32px;
+        }
+        .accordion {
+            margin: 0.2rem auto;
+        }
+    }
+}
+
 .last {
     padding-top: 70px;
     padding-bottom: 70px;
