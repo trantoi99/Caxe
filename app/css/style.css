@@ -8,6 +8,30 @@ p {
   padding: 0 !important;
   margin: 0 !important; }
 
+.btn-orange {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff !important;
+  background-color: #ff7a00 !important; }
+
+.btn-orange:hover {
+  text-decoration: none;
+  color: #ff7a00 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ff7a00; }
+
+.margin-top-36 {
+  margin-top: 36px; }
+
+.margin-bottom-28px {
+  margin-bottom: 28px; }
+
 .last {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -20,6 +44,39 @@ p {
     line-height: 1.25;
     letter-spacing: -0.96px;
     color: #ffffff; }
+  .last p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: rgba(255, 255, 255, 0.8); }
+  .last .btn-orange {
+    padding: 12px 140px; }
+  @media screen and (max-width: 1024px) {
+    .last .col-md-5 {
+      flex: 0 0 50%;
+      max-width: 50%; }
+    .last .col-md-2 {
+      display: none; } }
+  @media screen and (max-width: 768px) {
+    .last .btn-orange {
+      padding: 12px 110px; } }
+  @media screen and (max-width: 576px) {
+    .last {
+      padding-bottom: 60px;
+      padding-top: 60px; }
+      .last .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-bottom: 20px;
+        text-align: center; }
+      .last .col-md-5:last-child {
+        padding-bottom: 0; } }
+  @media screen and (max-width: 321px) {
+    .last .btn-orange {
+      padding: 12px 66px; } }
 
 footer .container {
   border-bottom: 1px solid #e8e8e8;
