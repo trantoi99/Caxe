@@ -47,6 +47,7 @@
 </head>
 
 <body>
+    <section class="benefits"></section>
     <section class="banner">
         <div class="banner-flex">
             <div class="banner-col-left">
@@ -62,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 my-auto">
-                    <div class="d-flex align-items-baseline">
+                    <div class="d-flex align-items-baseline product__star">
                         <div class="d-flex">
                             <i class="lni lni-star-filled checked"></i>
                             <i class="lni lni-star-filled checked"></i>
@@ -84,7 +85,6 @@
                         <div class="product__price--sale pl-3">
                             $15
                         </div>
-
                         <div class="d-flex align-items-baseline padding-left-12">
                             <i class="lni lni-alarm-clock pr-1" style="font-size: 16px; color: #ff0f00;"></i>
                             <ul class="d-flex text-center">
@@ -115,11 +115,14 @@
                             - Curabitur eleifend ante id dui tempus ultricies.
                         </p>
                     </div>
-                    <div class="product__buy">
+                    <div class="product__buy padding-top-40 padding-bottom-24">
                         <div class="quantity__group">
                             <button type="button" class="minus" onclick="decreaseValue()"><i class="fa fa-minus" aria-hidden="true"></i></button>
                             <input id="theInput" type="number" class="input-text qty text" title="Qty" value="1" min="0" step="1">
                             <button type="button" class="plus" onclick="increaseValue()"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="button__spacing">
+                            <a class="btn-orange" href="#">Buy It Now</a>
                         </div>
                     </div>
                     <div class="product__payment">
@@ -131,7 +134,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 order-col">
                     <div class="product__img--absolute">
                         <div class="circle__wrapper">
                             <div class="circle__inner">
