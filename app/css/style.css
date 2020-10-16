@@ -47,13 +47,36 @@ p {
 a:hover {
   text-decoration: none; }
 
+.banner {
+  background-color: #f17f16; }
+  .banner .banner-flex {
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; }
+  .banner .banner-col-left {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px; }
+  .banner .banner-col-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 15px; }
+
+.testimonial {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ecf4f6; }
+
 .product .container {
   padding-top: 80px;
   padding-bottom: 80px;
   border-bottom: 1px solid #eeeeee; }
 
 .product .product__img--absolute {
-  position: absolute; }
+  position: absolute;
+  left: 80%;
+  top: 12%; }
 
 .product .product__img--relative {
   position: relative; }
@@ -84,6 +107,80 @@ a:hover {
   letter-spacing: -0.48px;
   color: #ffffff;
   font-size: 1.5rem; }
+
+.product .checked {
+  color: #ffe921;
+  font-size: 12px; }
+
+.product h6 {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5a5a5a; }
+
+.product .product__price {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  align-items: baseline; }
+  .product .product__price del {
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c4c4c4; }
+  .product .product__price .product__price--sale {
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ff0f00; }
+
+.product .product__countdown {
+  display: flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  align-items: baseline; }
+  .product .product__countdown h3 {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000; }
+  .product .product__countdown ul {
+    list-style-type: none; }
+  .product .product__countdown ul,
+  .product .product__countdown li {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #ff0f00; }
+  .product .product__countdown li::marker {
+    display: none; }
+  .product .product__countdown ul li span {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: -0.96px;
+    text-align: center;
+    color: #ff0f00; }
+  .product .product__countdown ul li {
+    padding-left: 4px !important; }
 
 .delivery {
   padding-top: 60px;

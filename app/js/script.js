@@ -87,15 +87,15 @@ let x = setInterval(function() {
     hours = Math.floor(distance_ / (1000 * 60 * 60) % 60);
     days = Math.floor(distance_ / (1000 * 60 * 60 * 24) % 100);
 
-    document.getElementById('day').innerText = days;
-    document.getElementById('hour').innerText = hours;
-    document.getElementById('minute').innerText = minutes;
-    document.getElementById('second').innerText = seconds;
-
     document.getElementById('days').innerText = days;
     document.getElementById('hours').innerText = hours;
     document.getElementById('minutes').innerText = minutes;
     document.getElementById('seconds').innerText = seconds;
+
+    document.getElementById('day').innerText = days;
+    document.getElementById('hour').innerText = hours;
+    document.getElementById('minute').innerText = minutes;
+    document.getElementById('second').innerText = seconds;
 }, 1000);
 
 function increaseValue() {
