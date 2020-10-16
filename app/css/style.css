@@ -47,6 +47,18 @@ p {
 .margin-bottom-28px {
   margin-bottom: 28px; }
 
+.padding-bottom-24 {
+  padding-bottom: 24px; }
+
+.margin-bottom-24 {
+  margin-bottom: 24px; }
+
+.margin-top-40 {
+  margin-top: 40px; }
+
+.padding-top-40 {
+  padding-top: 40px; }
+
 a:hover {
   text-decoration: none; }
 
@@ -180,7 +192,6 @@ a:hover {
     color: #2a2a2a; }
   .product .product__buy {
     display: flex;
-    display: -moz-box;
     display: -ms-flexbox;
     display: -moz-flex;
     display: -webkit-flex;
@@ -202,9 +213,12 @@ a:hover {
       color: #5a5a5a; }
     .product .product__payment .padding-left-24 {
       padding-left: 24px; }
+  .product .button__spacing {
+    padding-left: 8px; }
   .product .quantity__group {
     padding: 12px 16px;
-    border: 1px solid #eeeeee; }
+    border: 1px solid #eeeeee;
+    border-radius: 4px; }
   .product input {
     text-align: center;
     width: 32px;
@@ -243,6 +257,56 @@ a:hover {
     line-height: 1.5;
     letter-spacing: normal;
     color: #5a5a5a; }
+  .product .btn-orange {
+    padding: 16px 142px; }
+  @media screen and (max-width: 1024px) {
+    .product .product__buy {
+      flex-direction: column; }
+    .product .button__spacing {
+      padding-left: 0;
+      margin-top: 20px; } }
+  @media screen and (max-width: 768px) {
+    .product .btn-orange {
+      padding: 16px 100px; } }
+  @media screen and (max-width: 576px) {
+    .product {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      .product .product__star {
+        justify-content: center; }
+      .product .col-md-6 {
+        text-align: center; }
+      .product .order-col {
+        order: -1;
+        padding-bottom: 24px; }
+      .product .product__price {
+        justify-content: center; }
+      .product .quantity__group {
+        align-self: center; }
+      .product .button__spacing {
+        display: flex;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        align-self: center; }
+      .product .product__payment {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .product .product__payment .padding-left-24 {
+          padding-left: 0px;
+          padding-top: 4px; } }
+  @media screen and (max-width: 420px) {
+    .product .product__img--absolute {
+      left: 72%; } }
+  @media screen and (max-width: 320px) {
+    .product .btn-orange {
+      padding: 16px 72px; }
+    .product .product__img--absolute {
+      left: 70%; }
+    .product .circle__inner {
+      height: 72px;
+      width: 72px; } }
 
 .delivery {
   padding-top: 60px;

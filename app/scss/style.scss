@@ -57,6 +57,22 @@ p {
     margin-bottom: 28px;
 }
 
+.padding-bottom-24 {
+    padding-bottom: 24px;
+}
+
+.margin-bottom-24 {
+    margin-bottom: 24px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -215,7 +231,6 @@ a:hover {
     }
     .product__buy {
         display: flex;
-        display: -moz-box;
         display: -ms-flexbox;
         display: -moz-flex;
         display: -webkit-flex;
@@ -241,9 +256,13 @@ a:hover {
             padding-left: 24px;
         }
     }
+    .button__spacing {
+        padding-left: 8px;
+    }
     .quantity__group {
         padding: 12px 16px;
         border: 1px solid #eeeeee;
+        border-radius: 4px;
     }
     input {
         text-align: center;
@@ -288,6 +307,76 @@ a:hover {
         line-height: 1.5;
         letter-spacing: normal;
         color: #5a5a5a;
+    }
+    .btn-orange {
+        padding: 16px 142px;
+    }
+    @media screen and (max-width:1024px) {
+        .product__buy {
+            flex-direction: column;
+        }
+        .button__spacing {
+            padding-left: 0;
+            margin-top: 20px;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .btn-orange {
+            padding: 16px 100px;
+        }
+    }
+    @media screen and ( max-width :576px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .product__star {
+            justify-content: center;
+        }
+        .col-md-6 {
+            text-align: center;
+        }
+        .order-col {
+            order: -1;
+            padding-bottom: 24px;
+        }
+        .product__price {
+            justify-content: center;
+        }
+        .quantity__group {
+            align-self: center;
+        }
+        .button__spacing {
+            display: flex;
+            display: -ms-flexbox;
+            display: -moz-flex;
+            display: -webkit-flex;
+            align-self: center;
+        }
+        .product__payment {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .padding-left-24 {
+                padding-left: 0px;
+                padding-top: 4px;
+            }
+        }
+    }
+    @media screen and (max-width:420px) {
+        .product__img--absolute {
+            left: 72%;
+        }
+    }
+    @media screen and (max-width:320px) {
+        .btn-orange {
+            padding: 16px 72px;
+        }
+        .product__img--absolute {
+            left: 70%;
+        }
+        .circle__inner {
+            height: 72px;
+            width: 72px;
+        }
     }
 }
 
