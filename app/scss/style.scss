@@ -57,6 +57,97 @@ a:hover {
     text-decoration: none;
 }
 
+.product {
+    .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border-bottom: 1px solid #eeeeee;
+    }
+    .product__img--absolute {
+        position: absolute;
+    }
+    .product__img--relative {
+        position: relative;
+    }
+    .circle__wrapper {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        align-items: center;
+    }
+    .circle__inner {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        background-color: #ff0f00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    .circle__description p {
+        text-align: center;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        color: #ffffff;
+        font-size: 1.5rem;
+    }
+}
+
+.delivery {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .col-lg-3 {
+        text-align: center;
+    }
+    i {
+        font-size: 48px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.48px;
+        text-align: center;
+        color: #ff7a00;
+    }
+    .icon-spacing {}
+    .icon {
+        display: flex;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #f8f8f8;
+        align-items: center;
+    }
+    .icon-center {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: center;
+    }
+    @media screen and (max-width:768px) {
+        .col-lg-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .padding-bottom-16 {
+            padding-bottom: 16px;
+        }
+    }
+    @media screen and (max-width:321px) {
+        .icon {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
 .our-gallery {
     background-color: #ecf4f6;
     padding-top: 80px;
