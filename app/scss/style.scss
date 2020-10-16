@@ -37,6 +37,24 @@ p {
     margin-bottom: 28px;
 }
 
+.our-gallery {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .our-gallery__title {
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1a1a1a;
+    }
+}
+
 .faqs {
     padding-top: 80px;
     padding-bottom: 80px;
