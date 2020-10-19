@@ -342,7 +342,52 @@ a:hover {
     .banner-col-right {
         flex: 0 0 50%;
         max-width: 50%;
-        padding-left: 15px;
+        padding-left: 105px;
+        padding-right: 220px;
+    }
+    ul {
+        list-style-type: none;
+    }
+    ul,
+    li {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    li::marker {
+        display: none;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: -0.8px;
+        text-align: left;
+        color: #ffffff;
+    }
+    ul li span {
+        font-size: 48px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        padding-bottom: 4px;
+    }
+    li {
+        padding-right: 40px !important;
+    }
+    ul li p {
+        font-size: 16px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
     }
 }
 
