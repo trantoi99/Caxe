@@ -334,7 +334,13 @@ a:hover {
         max-width: 100%;
         text-align: center; }
       .about .about__col--right {
-        padding: 0; } }
+        padding: 0; }
+      .about .text--center {
+        justify-content: center !important; } }
+  @media screen and (max-width: 768px) {
+    .about .about__absolute {
+      bottom: 70%;
+      left: 70%; } }
   @media screen and (max-width: 576px) {
     .about {
       padding-top: 60px;
