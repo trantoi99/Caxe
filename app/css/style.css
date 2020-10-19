@@ -332,6 +332,9 @@ a:hover {
     text-align: left;
     color: #1a1a1a;
     opacity: 0.6; }
+  .testimonial .row {
+    margin-left: 5px;
+    margin-right: 5px; }
   .testimonial .col-md-4 {
     padding: 24px 40px 46px 40px;
     border: solid 1px #e8e8e8;
@@ -382,6 +385,14 @@ a:hover {
   .testimonial .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #f17f16; }
+  @media screen and (max-width: 576px) {
+    .testimonial {
+      padding-top: 60px;
+      padding-bottom: 80px; }
+      .testimonial .slick-dots {
+        bottom: -48px; }
+      .testimonial .testimonial__title {
+        padding-bottom: 42px; } }
 
 .product {
   /* hide quantity in input */ }
