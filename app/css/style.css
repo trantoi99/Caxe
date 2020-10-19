@@ -203,7 +203,7 @@ a:hover {
     font-size: 48px; }
   .about .about__absolute {
     position: absolute;
-    bottom: 80%;
+    bottom: 55%;
     left: 36%; }
   .about .about__relative {
     position: relative; }
