@@ -46,7 +46,7 @@ $(document).ready(function() {
 
     $('.button').magnificPopup({
         items: {
-            src: 'https://www.youtube.com/watch?v=4ZHp5KNXTPA'
+            src: 'https://www.youtube.com/watch?v=4lezvLmQsv4'
         },
         type: 'iframe',
         iframe: {
