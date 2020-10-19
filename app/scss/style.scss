@@ -425,9 +425,6 @@ a:hover {
         z-index: 2;
         left: 85%;
     }
-    .slick-list {
-        overflow: initial;
-    }
     i {}
     .slick-slide {
         margin-left: 15px;
@@ -469,6 +466,17 @@ a:hover {
         opacity: .75;
         color: #f17f16;
     }
+    .slick-list {
+        overflow: inherit;
+    }
+    @media screen and ( max-width:992px) {
+        .slick-list {
+            overflow: hidden;
+        }
+        .col-md-4::after {
+            bottom: 80%;
+        }
+    }
     @media screen and (max-width:576px) {
         padding-top: 60px;
         padding-bottom: 80px;
@@ -477,6 +485,12 @@ a:hover {
         }
         .testimonial__title {
             padding-bottom: 42px;
+        }
+    }
+    @media screen and (max-width:280px) {
+        .col-md-4::after {
+            bottom: 90%;
+            left: 70%;
         }
     }
 }

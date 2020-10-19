@@ -9,7 +9,6 @@ $(document).ready(function() {
         focusOnSelect: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
@@ -26,7 +25,7 @@ $(document).ready(function() {
                 }
             },
             {
-                breakpoint: 540,
+                breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
