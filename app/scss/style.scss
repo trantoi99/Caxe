@@ -425,6 +425,9 @@ a:hover {
         z-index: 2;
         left: 85%;
     }
+    .slick-list {
+        overflow: initial;
+    }
     i {}
     .slick-slide {
         margin-left: 15px;
