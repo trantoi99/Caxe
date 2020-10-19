@@ -345,6 +345,45 @@ a:hover {
         color: #000000;
         text-align: center;
     }
+    @media screen and (max-width:1024px) {
+        .about__absolute {
+            bottom: 85%;
+            left: 36%;
+        }
+        .about__col-right {
+            padding-right: 0;
+            padding-left: 65px;
+        }
+        .circle__inner {
+            position: absolute;
+            height: 120px;
+            width: 120px;
+            background-color: #ff0f00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+        }
+        .circle__description p {
+            text-align: center;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -0.48px;
+            color: #ffffff;
+            font-size: 32px;
+        }
+        .about__flex {
+            flex-direction: column;
+        }
+        .ml-3 {
+            margin-left: 0px !important;
+        }
+        .button__spacing {
+            margin-bottom: 40px;
+        }
+    }
 }
 
 .news {

@@ -291,6 +291,37 @@ a:hover {
     letter-spacing: 2px;
     color: #000000;
     text-align: center; }
+  @media screen and (max-width: 1024px) {
+    .about .about__absolute {
+      bottom: 85%;
+      left: 36%; }
+    .about .about__col-right {
+      padding-right: 0;
+      padding-left: 65px; }
+    .about .circle__inner {
+      position: absolute;
+      height: 120px;
+      width: 120px;
+      background-color: #ff0f00;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%; }
+    .about .circle__description p {
+      text-align: center;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.48px;
+      color: #ffffff;
+      font-size: 32px; }
+    .about .about__flex {
+      flex-direction: column; }
+    .about .ml-3 {
+      margin-left: 0px !important; }
+    .about .button__spacing {
+      margin-bottom: 40px; } }
 
 .news {
   padding-top: 80px;
