@@ -355,6 +355,54 @@ a:hover {
         letter-spacing: normal;
         color: #1a1a1a;
     }
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1a;
+    }
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #666666;
+    }
+    h4 {
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1a;
+    }
+    h5 {
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1a;
+        opacity: 0.6;
+    }
+    .col-md-4 {
+        padding: 24px 40px 46px 40px;
+        border: solid 1px #e8e8e8;
+        background-color: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 .product {
