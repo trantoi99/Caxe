@@ -166,8 +166,6 @@ a:hover {
     color: #888888; }
 
 .about {
-  padding-top: 80px;
-  padding-bottom: 80px;
   background-color: #ecf4f6; }
   .about .about__wrapper {
     display: flex;
@@ -175,6 +173,10 @@ a:hover {
     display: -ms-flexbox;
     display: -webkit-flex;
     flex-wrap: wrap; }
+  .about .about__col--left,
+  .about .about__col-right {
+    flex: 0 0 50%;
+    max-width: 50%; }
 
 .news {
   padding-top: 80px;

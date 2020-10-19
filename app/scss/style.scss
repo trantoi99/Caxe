@@ -202,8 +202,6 @@ a:hover {
 }
 
 .about {
-    padding-top: 80px;
-    padding-bottom: 80px;
     background-color: #ecf4f6;
     .about__wrapper {
         display: flex;
@@ -211,6 +209,11 @@ a:hover {
         display: -ms-flexbox;
         display: -webkit-flex;
         flex-wrap: wrap;
+    }
+    .about__col--left,
+    .about__col-right {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
