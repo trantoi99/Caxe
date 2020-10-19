@@ -424,6 +424,18 @@ a:hover {
             padding-right: 30px;
         }
     }
+    @media screen and (max-width: 420px) {
+        .circle__inner {
+            height: 80px;
+            width: 80px;
+        }
+        h1 {
+            font-size: 48px;
+        }
+        .circle__description p {
+            font-size: 24px;
+        }
+    }
 }
 
 .news {

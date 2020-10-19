@@ -353,6 +353,14 @@ a:hover {
       .about .about__description {
         padding-left: 30px;
         padding-right: 30px; } }
+  @media screen and (max-width: 420px) {
+    .about .circle__inner {
+      height: 80px;
+      width: 80px; }
+    .about h1 {
+      font-size: 48px; }
+    .about .circle__description p {
+      font-size: 24px; } }
 
 .news {
   padding-top: 80px;
