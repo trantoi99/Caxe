@@ -13,18 +13,18 @@ $(document).ready(function() {
                 breakpoint: 992,
                 settings: {
                     arrows: false,
-                    slidesToShow: 1
+                    slidesToShow: 3
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-                    slidesToShow: 1
+                    slidesToShow: 2
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 576,
                 settings: {
                     arrows: false,
                     slidesToShow: 1
