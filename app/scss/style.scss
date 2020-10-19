@@ -204,6 +204,14 @@ a:hover {
 .about {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: #ecf4f6;
+    .about__wrapper {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+    }
 }
 
 .news {
