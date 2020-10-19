@@ -261,6 +261,27 @@ a:hover {
     line-height: 1.5;
     letter-spacing: normal;
     color: #555555; }
+  .about .btn-orange {
+    border-radius: 3px;
+    padding: 14px 68px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center; }
+  .about .btn-overlay {
+    padding: 14px 52px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 2px;
+    color: #000000;
+    text-align: center; }
 
 .news {
   padding-top: 80px;
