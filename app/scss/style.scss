@@ -29,6 +29,26 @@ p {
     border: 1px solid #ff7a00;
 }
 
+.btn-black {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff !important;
+    background-color: #000000 !important;
+}
+
+.btn-black:hover {
+    text-decoration: none;
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    border: 1px solid #000000;
+}
+
 .padding-left-12 {
     padding-left: 12px;
 }
@@ -39,6 +59,14 @@ p {
 
 .padding-bottom-15 {
     padding-bottom: 15px;
+}
+
+.padding-bottom-56 {
+    padding-bottom: 56px;
+}
+
+.margin-bottom-56 {
+    margin-bottom: 56px;
 }
 
 .padding-left-15 {
@@ -363,7 +391,6 @@ a:hover {
         font-style: normal;
         line-height: 1.4;
         letter-spacing: -0.8px;
-        text-align: left;
         color: #ffffff;
     }
     ul li span {
@@ -379,6 +406,9 @@ a:hover {
     li {
         padding-right: 40px !important;
     }
+    li:last-child {
+        padding-right: 0 !important;
+    }
     ul li p {
         font-size: 16px;
         font-weight: 500;
@@ -389,6 +419,48 @@ a:hover {
         text-align: center;
         color: #ffffff;
     }
+    .btn-black {
+        padding: 16px 40px;
+    }
+    @media screen and (max-width:1024px) {
+        .banner-col-right {
+            padding-left: 15px;
+            padding-right: 0;
+        }
+        .padding-bottom-56 {
+            padding-bottom: 32px;
+        }
+        .margin-bottom-56 {
+            margin-bottom: 32px;
+        }
+        .margin-bottom-20 {
+            margin-bottom: 20px;
+        }
+    }
+    @media screen and (max-width:992px) {
+        .banner-flex {
+            flex-direction: column;
+        }
+        .banner-col-left,
+        .banner-col-right {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding: 0;
+        }
+        ul {
+            justify-self: center;
+            justify-content: center;
+        }
+        .margin-bottom-20 {
+            margin-bottom: 40px;
+        }
+        .banner-col-left--spacing {
+            padding-bottom: 24px;
+        }
+    }
+    @media screen and (max-width:320px) {}
 }
 
 .testimonial {

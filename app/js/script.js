@@ -14,6 +14,15 @@ $(document).ready(function() {
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
+                    centerPadding: '0px',
+                }
+            },
+            {
+                breakpoint: 1000,
+                settings: {
+                    slideToShow: 2,
+                    slideToScroll: 1,
+                    centerPadding: '0px',
                 }
             },
             {

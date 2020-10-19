@@ -27,6 +27,24 @@ p {
   background-color: #ffffff !important;
   border: 1px solid #ff7a00; }
 
+.btn-black {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff !important;
+  background-color: #000000 !important; }
+
+.btn-black:hover {
+  text-decoration: none;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border: 1px solid #000000; }
+
 .padding-left-12 {
   padding-left: 12px; }
 
@@ -35,6 +53,12 @@ p {
 
 .padding-bottom-15 {
   padding-bottom: 15px; }
+
+.padding-bottom-56 {
+  padding-bottom: 56px; }
+
+.margin-bottom-56 {
+  margin-bottom: 56px; }
 
 .padding-left-15 {
   padding-left: 15px; }
@@ -295,7 +319,6 @@ a:hover {
     font-style: normal;
     line-height: 1.4;
     letter-spacing: -0.8px;
-    text-align: left;
     color: #ffffff; }
   .banner ul li span {
     font-size: 48px;
@@ -308,6 +331,8 @@ a:hover {
     padding-bottom: 4px; }
   .banner li {
     padding-right: 40px !important; }
+  .banner li:last-child {
+    padding-right: 0 !important; }
   .banner ul li p {
     font-size: 16px;
     font-weight: 500;
@@ -317,6 +342,35 @@ a:hover {
     letter-spacing: normal;
     text-align: center;
     color: #ffffff; }
+  .banner .btn-black {
+    padding: 16px 40px; }
+  @media screen and (max-width: 1024px) {
+    .banner .banner-col-right {
+      padding-left: 15px;
+      padding-right: 0; }
+    .banner .padding-bottom-56 {
+      padding-bottom: 32px; }
+    .banner .margin-bottom-56 {
+      margin-bottom: 32px; }
+    .banner .margin-bottom-20 {
+      margin-bottom: 20px; } }
+  @media screen and (max-width: 992px) {
+    .banner .banner-flex {
+      flex-direction: column; }
+    .banner .banner-col-left,
+    .banner .banner-col-right {
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center;
+      justify-content: center;
+      padding: 0; }
+    .banner ul {
+      justify-self: center;
+      justify-content: center; }
+    .banner .margin-bottom-20 {
+      margin-bottom: 40px; }
+    .banner .banner-col-left--spacing {
+      padding-bottom: 24px; } }
 
 .testimonial {
   padding-top: 80px;
