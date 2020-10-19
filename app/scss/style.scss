@@ -53,6 +53,14 @@ p {
     padding-top: 15px;
 }
 
+.padding-bottom-16 {
+    padding-bottom: 16px;
+}
+
+.padding-bottom-12 {
+    padding-bottom: 12px;
+}
+
 .margin-bottom-28px {
     margin-bottom: 28px;
 }
@@ -401,11 +409,29 @@ a:hover {
         border: solid 1px #e8e8e8;
         background-color: #ffffff;
     }
-    i {
+    .col-md-4::after {
+        content: "\eb65";
         font-size: 48px;
         line-height: 1;
+        font-family: "Lineicons";
         letter-spacing: normal;
         color: #f17f16;
+        position: absolute;
+        bottom: 92%;
+        z-index: 2;
+        left: 85%;
+    }
+    i {}
+    .slick-slide {
+        margin-left: 15px;
+        margin-right: 15px;
+        outline: unset;
+    }
+    .testimonial__avatar {
+        display: flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
     }
 }
 

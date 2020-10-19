@@ -5,7 +5,7 @@ $(document).ready(function() {
         infinite: true,
         speed: 300,
         centerMode: true,
-        centerPadding: '0px',
+        centerPadding: '105px',
         focusOnSelect: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -20,7 +20,7 @@ $(document).ready(function() {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             },
             {
