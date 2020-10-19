@@ -201,6 +201,12 @@ a:hover {
     letter-spacing: -0.48px;
     color: #ffffff;
     font-size: 48px; }
+  .about .about__absolute {
+    position: absolute;
+    bottom: 80%;
+    left: 36%; }
+  .about .about__relative {
+    position: relative; }
 
 .news {
   padding-top: 80px;

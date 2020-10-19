@@ -242,6 +242,14 @@ a:hover {
         color: #ffffff;
         font-size: 48px;
     }
+    .about__absolute {
+        position: absolute;
+        bottom: 80%;
+        left: 36%;
+    }
+    .about__relative {
+        position: relative;
+    }
 }
 
 .news {
