@@ -149,6 +149,10 @@ a:hover {
     text-decoration: none;
 }
 
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
 .nav__bar {
     nav {
         padding: 0 !important;
@@ -238,6 +242,9 @@ a:hover {
     .about__col-right {
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    .about__col-right {
+        padding-right: 135px;
     }
     .circle__wrapper {
         display: flex;

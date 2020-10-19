@@ -124,6 +124,9 @@ p {
 a:hover {
   text-decoration: none; }
 
+.margin-bottom-40 {
+  margin-bottom: 40px; }
+
 .nav__bar {
   padding-top: 18px;
   padding-bottom: 18px;
@@ -199,6 +202,8 @@ a:hover {
   .about .about__col-right {
     flex: 0 0 50%;
     max-width: 50%; }
+  .about .about__col-right {
+    padding-right: 135px; }
   .about .circle__wrapper {
     display: flex;
     display: -moz-box;
