@@ -336,7 +336,12 @@ a:hover {
       .about .about__col--right {
         padding: 0; }
       .about .text--center {
-        justify-content: center !important; } }
+        justify-content: center !important; }
+      .about img {
+        padding-bottom: 24px; }
+      .about .about__description {
+        padding-left: 70px;
+        padding-right: 70px; } }
   @media screen and (max-width: 768px) {
     .about .about__absolute {
       bottom: 70%;
@@ -344,7 +349,10 @@ a:hover {
   @media screen and (max-width: 576px) {
     .about {
       padding-top: 60px;
-      padding-bottom: 60px; } }
+      padding-bottom: 60px; }
+      .about .about__description {
+        padding-left: 30px;
+        padding-right: 30px; } }
 
 .news {
   padding-top: 80px;

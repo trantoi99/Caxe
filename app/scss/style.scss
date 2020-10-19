@@ -402,6 +402,13 @@ a:hover {
         .text--center {
             justify-content: center !important;
         }
+        img {
+            padding-bottom: 24px;
+        }
+        .about__description {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
     }
     @media screen and (max-width:768px) {
         .about__absolute {
@@ -412,6 +419,10 @@ a:hover {
     @media screen and (max-width :576px) {
         padding-top: 60px;
         padding-bottom: 60px;
+        .about__description {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
     }
 }
 
