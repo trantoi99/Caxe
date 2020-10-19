@@ -59,7 +59,7 @@ p {
   border-radius: 3px;
   border: solid 1px rgba(0, 0, 0, 0.1); }
 
-.btn-orange:hover {
+.btn-overlay:hover {
   text-decoration: none;
   color: #ecf4f6 !important;
   background-color: #ffffff !important;
@@ -261,6 +261,10 @@ a:hover {
     line-height: 1.5;
     letter-spacing: normal;
     color: #555555; }
+  .about .about__flex {
+    display: flex;
+    display: -moz-box;
+    display: -ms-flexbox; }
   .about .btn-orange {
     border-radius: 3px;
     padding: 14px 68px;
