@@ -65,6 +65,10 @@ p {
     margin-bottom: 24px;
 }
 
+.padding-bottom-40 {
+    padding-bottom: 40px;
+}
+
 .padding-bottom-64 {
     padding-bottom: 64px;
 }
@@ -164,6 +168,78 @@ a:hover {
 .news {
     padding-top: 80px;
     padding-bottom: 80px;
+    h3 {
+        font-size: 40px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: -0.8px;
+        text-align: left;
+        color: #343638;
+    }
+    .text-attendtion {
+        font-weight: bold;
+        font-style: italic;
+        color: #fe942d;
+    }
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #555555;
+    }
+    .row {
+        padding-bottom: 80px;
+    }
+    .row:last-child {
+        padding-bottom: 0px;
+    }
+    .align-right {
+        text-align: end;
+    }
+    .align-left {
+        text-align: left;
+    }
+    @media screen and (max-width:1024px) {
+        .col-md-1 {
+            display: none;
+        }
+        .col-md-5,
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    @media screen and (max-width:576px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .col-md-6,
+        .col-md-5 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center;
+        }
+        .order-col {
+            order: -1;
+        }
+        .padding-bottom-40 {
+            padding-bottom: 20px;
+        }
+        img {
+            padding-bottom: 24px;
+        }
+        .row {
+            padding-bottom: 40px;
+        }
+        .row:last-child {
+            padding-bottom: 0;
+        }
+    }
 }
 
 .benefits {
@@ -266,6 +342,19 @@ a:hover {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #ecf4f6;
+    .testimonial__title {
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1a1a1a;
+    }
 }
 
 .product {

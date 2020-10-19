@@ -53,6 +53,9 @@ p {
 .margin-bottom-24 {
   margin-bottom: 24px; }
 
+.padding-bottom-40 {
+  padding-bottom: 40px; }
+
 .padding-bottom-64 {
   padding-bottom: 64px; }
 
@@ -134,6 +137,62 @@ a:hover {
 .news {
   padding-top: 80px;
   padding-bottom: 80px; }
+  .news h3 {
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.8px;
+    text-align: left;
+    color: #343638; }
+  .news .text-attendtion {
+    font-weight: bold;
+    font-style: italic;
+    color: #fe942d; }
+  .news p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555; }
+  .news .row {
+    padding-bottom: 80px; }
+  .news .row:last-child {
+    padding-bottom: 0px; }
+  .news .align-right {
+    text-align: end; }
+  .news .align-left {
+    text-align: left; }
+  @media screen and (max-width: 1024px) {
+    .news .col-md-1 {
+      display: none; }
+    .news .col-md-5,
+    .news .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media screen and (max-width: 576px) {
+    .news {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      .news .col-md-6,
+      .news .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center; }
+      .news .order-col {
+        order: -1; }
+      .news .padding-bottom-40 {
+        padding-bottom: 20px; }
+      .news img {
+        padding-bottom: 24px; }
+      .news .row {
+        padding-bottom: 40px; }
+      .news .row:last-child {
+        padding-bottom: 0; } }
 
 .benefits {
   background-color: #fff8f1;
@@ -218,6 +277,17 @@ a:hover {
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #ecf4f6; }
+  .testimonial .testimonial__title {
+    text-align: center;
+    padding-bottom: 80px; }
+  .testimonial h2 {
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1a1a1a; }
 
 .product {
   /* hide quantity in input */ }
