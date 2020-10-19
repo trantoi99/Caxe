@@ -54,14 +54,14 @@ p {
   line-height: 1.71;
   letter-spacing: 2px;
   text-align: center;
-  color: #ffffff !important;
+  color: #000000 !important;
   background-color: transparent !important;
   border-radius: 3px;
   border: solid 1px rgba(0, 0, 0, 0.1); }
 
 .btn-overlay:hover {
   text-decoration: none;
-  color: #ecf4f6 !important;
+  color: #f17f16 !important;
   background-color: #ffffff !important;
   border: 1px solid #ecf4f6;
   border-radius: 3px;
@@ -199,10 +199,10 @@ a:hover {
     display: -webkit-flex;
     flex-wrap: wrap; }
   .about .about__col--left,
-  .about .about__col-right {
+  .about .about__col--right {
     flex: 0 0 50%;
     max-width: 50%; }
-  .about .about__col-right {
+  .about .about__col--right {
     padding-right: 135px; }
   .about .circle__wrapper {
     display: flex;
@@ -295,7 +295,7 @@ a:hover {
     .about .about__absolute {
       bottom: 85%;
       left: 36%; }
-    .about .about__col-right {
+    .about .about__col--right {
       padding-right: 0;
       padding-left: 65px; }
     .about .circle__inner {
@@ -322,6 +322,23 @@ a:hover {
       margin-left: 0px !important; }
     .about .button__spacing {
       margin-bottom: 40px; } }
+  @media screen and (max-width: 992px) {
+    .about {
+      padding-top: 80px;
+      padding-bottom: 80px; }
+      .about .about__wrapper {
+        flex-wrap: wrap; }
+      .about .about__col--left,
+      .about .about__col--right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center; }
+      .about .about__col--right {
+        padding: 0; } }
+  @media screen and (max-width: 576px) {
+    .about {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
 
 .news {
   padding-top: 80px;
