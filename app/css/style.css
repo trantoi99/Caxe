@@ -329,6 +329,11 @@ a:hover {
     padding: 24px 40px 46px 40px;
     border: solid 1px #e8e8e8;
     background-color: #ffffff; }
+  .testimonial i {
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #f17f16; }
 
 .product {
   /* hide quantity in input */ }
