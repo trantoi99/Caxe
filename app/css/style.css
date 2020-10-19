@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1,
 h2,
 h3,
@@ -281,7 +282,7 @@ a:hover {
 
 .testimonial {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   background-color: #ecf4f6; }
   .testimonial .testimonial__title {
     text-align: center;
@@ -355,6 +356,32 @@ a:hover {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex; }
+  .testimonial .slick-dots {
+    position: absolute;
+    bottom: -64px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; }
+  .testimonial .slick-dots li button:before {
+    font-family: slick;
+    font-size: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    color: #f17f16;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .testimonial .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #f17f16; }
 
 .product {
   /* hide quantity in input */ }

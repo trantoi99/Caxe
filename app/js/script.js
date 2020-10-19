@@ -10,24 +10,26 @@ $(document).ready(function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [{
-                breakpoint: 992,
+                breakpoint: 1024,
                 settings: {
-                    arrows: false,
-                    slidesToShow: 3
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false,
-                    slidesToShow: 2
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerPadding: '0px',
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 540,
                 settings: {
-                    arrows: false,
-                    slidesToShow: 1
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '0px',
                 }
             }
         ]
