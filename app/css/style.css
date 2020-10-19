@@ -371,6 +371,14 @@ a:hover {
       margin-bottom: 40px; }
     .banner .banner-col-left--spacing {
       padding-bottom: 24px; } }
+  @media screen and (max-width: 320px) {
+    .banner .btn-black {
+      padding: 16px 20px; }
+    .banner li {
+      padding-right: 20px !important; } }
+  @media screen and (max-width: 280px) {
+    .banner .btn-black {
+      padding: 16px 6px; } }
 
 .testimonial {
   padding-top: 80px;
